@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Jekyll v4.1.1">
+    <title>The Weather-Latitud Project Humidity</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/carousel/">
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+        
+        @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+                font-size: 3.5rem;
+            }
+        }
+    </style>
+    <!-- Custom styles for this template -->
+    <link href="assets/dist/css/carousel.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+            <a class="navbar-brand" href="index.html">The Weather-Latitud Project</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="comparisons.html">Comparisons <span
+                                class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Plots</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="temperature.html">Max Temperature</a>
+                            <a class="dropdown-item" href="humidity.html">Humidity</a>
+                            <a class="dropdown-item" href="wind.html">Wind Speed</a>
+                            <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="data.html">Data</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+
+    <main role="main">
+
+        <!-- START THE FEATURETTES -->
+        <div class="container marketing">
+            <hr class="featurette-divider">
+            <div class="col">
+                <h2 class="featurette-heading">Humidity vs Latitud. </h2>
+                <p class="lead">Most of the avialable cities, have above 50% humidity levels, however the humidity percentages doesn't seem to be affected by the geogrphic location of the city (considering geografic location as the latitud).</p>
+            </div>
+            <div class="col-sm-6">
+                <img src="assets/Humidity.PNG" class="card-img-top" alt="Cloudiness">
+            </div>
+        </div>
+        <hr class="featurette-divider">
+
+        <div class="container">
+
+            <div class="d-sm-flex align-items-center overflow-hidden rounded-lg">
+                <div class="py-4 my-2 my-md-0 py-md-5 px-4 ml-md-3 text-center text-sm-left">
+                    <h1 class="mb-4 font-weight-bold">Weather Channel</h1>
+                    <h4 class="font-size-lg font-weight-light mb-2">Watch and analysis on live how weather would be today! </h4>
+                    <a class="btn btn-primary btn-shdaow btn-sm" href="https://weather.com/es-MX/tiempo/hoy/l/MXDF0132:1:MX">Go Now</a>
+                </div>
+            </div>
+            <div class="embed-responsive embed-responsive-4by3">
+                <iframe class="embed-responsive-item" src="https://weather.com/es-MX/tiempo/mapas/interactive/l/308a2007aee4558ea1b664347cda98324ecc7b60f93b85796322d9be9c0c9e82"></iframe>
+            </div>
+
+        </div>
+
+        <!-- FOOTER -->
+        <footer class="container">
+            <p class="float-right"><a href="#">Back to top</a></p>
+            <p>&copy; 2017-2020 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+        </footer>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script>
+        window.jQuery || document.write('<script src="assets/js/vendor/jquery.slim.min.js"><\/script>')
+    </script>
+    <script src="assets/dist/js/bootstrap.bundle.min.js"></script>
+
+</html>
